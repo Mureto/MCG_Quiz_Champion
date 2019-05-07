@@ -12,7 +12,7 @@ public class FragenKatalog {
 		for(int i = 0; i<kategorien.size();i++)
 		{
 			fragenliste.put(kategorien.get(i), new HashMap<Integer, ArrayList<Frage>>());
-			for(int j = 1; j<; j++)
+			for(int j = 1; j<=Hauptklasse.getAnzahlschwierigkeitsgrade(); j++)
 			{
 				
 			}
@@ -34,3 +34,4 @@ public class FragenKatalog {
 	}
 	
 }
+
