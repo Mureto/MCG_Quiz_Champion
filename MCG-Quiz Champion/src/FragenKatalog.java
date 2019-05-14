@@ -33,5 +33,6 @@ public class FragenKatalog {
 		kategorien.add("???");
 	}
 	
-}
 
+	
+}

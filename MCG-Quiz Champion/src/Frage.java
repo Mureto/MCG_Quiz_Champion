@@ -13,7 +13,7 @@ public class Frage {
 	
 	private Character korrekteAntwort;
 	
-	public Frage(int nummer, String kategorie, int schwierigkeitsgrad, String frage, String antwortA, String antwortB)
+	public Frage(int nummer, String kategorie, int schwierigkeitsgrad, String frage, String antwortA, String antwortB, String antwortC, String antwortD, Character korrekteAntwort)
 	{
 		setNummer(nummer);
 		setKategorie(kategorie);
@@ -21,6 +21,9 @@ public class Frage {
 		setFrage(frage);
 		setAntwortA(antwortA);
 		setAntwortB(antwortB);
+		setAntwortC(antwortC);
+		setAntwortD(antwortD);
+		setKorrekteAntwort(korrekteAntwort);
 	}
 
 	public int getNummer() {
