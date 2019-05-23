@@ -30,7 +30,7 @@ public class FragenKatalog {
 		kategorien.add("Im Labor");
 		kategorien.add("Religion");
 		kategorien.add("In der Natur");
-		kategorien.add("???");
+		kategorien.add("Chemie");
 	}
 	
 
